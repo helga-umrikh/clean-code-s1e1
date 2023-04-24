@@ -4,24 +4,24 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
-.top-block {
+.main-block {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.top-block img {
+.main-block img {
     width: 100%;
 }
-.top-block .more-inf {
+.main-block .main-block__more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.top-block { text-align: center;
+.main-block { text-align: center;
 }
 }
-.centered-main-page-element {
+.centered-block {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -115,7 +115,7 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
     width: 226px
 }
 button.delete img {
